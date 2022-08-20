@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/dogecoin.svg">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="" class="navbar-brand">
+                <img src="image/doge.png" alt="doge logo" width="70">
+                </a>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a href="#About" class="nav-link" >About</a>
+                    </li>
+                    <li>
+                        <a href="#Quote" class="nav-link" >Quote</a>
+                    </li>
+                    <li>
+                        <a href="#Contact" class="nav-link" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="text">
+                <h1 id="heroText">Dogecoin to the moon</h1>
+                <p id="des">I objective is to make dogecoin most populer and we are going to do do it anyway</p>
+                <button onclick="click1()" id="hero-btn">Sign up</button>
+            </div>
+            <div class="pic">
+                <img src="image/Doggo.jpg" alt="doggo" id="doggo">
+            </div>
+        </div>
+    </div>
+    <div class="mid" id="About">
+        <h1 id="infoText">Information about Dogecoin</h1>
+        <div class="doge-pics">
+            <img src="image/p1.jpg" alt="">
+            <img src="image/p2.jpg" alt="">
+            <img src="image/p3.jpg" alt="">
+            <img src="image/p4.webp" alt="">
+        </div>
+    </div>
+    <div class="Quote" id="Quote">
+        <h2>Woof Woof Woof </h2>
+        <p>-Beloved Doggo</p>
+    </div>
+    <div class="Contact" id="Contact">
+        <div class="call">
+            <h2>Sign up now to make Doge No.1</h2>
+            <button onclick="click1()" id="sign" >Sign up</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </div>
+    
+    
+      
+
+
+    <script>
+        function click1(){
+            document.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
